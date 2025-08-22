@@ -1,3 +1,4 @@
-
-cstatus
+.cache
+compile_commands.json
 clstatus
+*.o

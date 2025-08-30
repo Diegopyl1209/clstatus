@@ -3,6 +3,9 @@
 #include "backend.h"
 
 #ifdef X11
+#include <X11/Xlib.h>
+#include <stdlib.h>
+
 Display *display = NULL;
 
 void x11_init(void) {
